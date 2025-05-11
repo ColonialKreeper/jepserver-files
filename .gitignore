@@ -1,4 +1,4 @@
-world/**
+world/
 *.lock
 versions/**
 .fabric/**
