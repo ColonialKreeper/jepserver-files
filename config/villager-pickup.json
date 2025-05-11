@@ -1,0 +1,10 @@
+{
+  "sections": [
+    {
+      "values": {
+        "enable_villager_pickup": true,
+        "allow_villager_rename_with_anvil": true
+      }
+    }
+  ]
+}

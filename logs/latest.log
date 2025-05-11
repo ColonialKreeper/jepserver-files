@@ -1,0 +1,775 @@
+[18:19:20] [main/INFO]: Loading Minecraft 1.21.5 with Fabric Loader 0.16.14
+[18:19:20] [ForkJoinPool-1-worker-6/WARN]: The mod "betterstats" contains invalid entries in its mod json:
+- Unsupported root entry "" at line 26 column 4
+- Unsupported root entry "" at line 26 column 124
+- Unsupported root entry "" at line 28 column 4
+- Unsupported root entry "" at line 28 column 24
+[18:19:20] [ForkJoinPool-1-worker-5/WARN]: The mod "tcdcommons" contains invalid entries in its mod json:
+- Unsupported root entry "" at line 27 column 4
+- Unsupported root entry "" at line 27 column 198
+- Unsupported root entry "" at line 29 column 4
+- Unsupported root entry "" at line 29 column 24
+[18:19:20] [ForkJoinPool-1-worker-15/WARN]: Mod org_eclipse_jgit_org_eclipse_jgit_ssh_apache uses the version 6.10.0.202406032230-r which isn't compatible with Loader's extended semantic version format (Could not parse version number component '202406032230'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[18:19:20] [ForkJoinPool-1-worker-15/WARN]: Mod org_eclipse_jgit_org_eclipse_jgit uses the version 6.10.0.202406032230-r which isn't compatible with Loader's extended semantic version format (Could not parse version number component '202406032230'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[18:19:20] [main/INFO]: Loading 185 mods:
+	- almanac 1.4.5
+	- audioplayer 1.21.5-1.13.2
+	   |-- admiral 0.4.8+1.21.4
+	   |-- fabric-api-base 0.4.62+73a52b4b07
+	   |-- fabric-command-api-v2 2.2.49+73a52b4b07
+	   \-- fabric-lifecycle-events-v1 2.5.13+5cbce67307
+	- axesareweapons 1.9.4
+	- balm 21.5.14
+	   \-- kuma_api 21.5.2
+	- betterstats 3.13.9+fabric-1.21.5
+	- betterthanmending 2.2.3
+	- chunky 1.4.36
+	- cloth-config 18.0.145
+	   \-- cloth-basic-math 0.6.1
+	- clumps 23.0.0.1
+	- cobweb 1.3.3
+	- collective 8.3
+	- dcintegration-fabric 3.1.0.1
+	   |-- de_erdbeerbaerlp_dcintegration_common 3.1.0
+	   \-- fabric-permissions-api-v0 0.3.3
+	- debugify 1.21.5+1.0
+	- fabric-api 0.121.0+1.21.5
+	   |-- fabric-api-lookup-api-v1 1.6.95+86c3a9f149
+	   |-- fabric-biome-api-v1 16.0.7+2dd063df49
+	   |-- fabric-block-api-v1 1.0.37+86c3a9f149
+	   |-- fabric-block-view-api-v2 1.0.26+aa6d566c49
+	   |-- fabric-blockrenderlayer-v1 2.0.16+86c3a9f149
+	   |-- fabric-client-tags-api-v1 1.1.37+86c3a9f149
+	   |-- fabric-command-api-v1 1.2.70+f71b366f49
+	   |-- fabric-commands-v0 0.2.87+df3654b349
+	   |-- fabric-content-registries-v0 10.0.12+3e6c1f7d49
+	   |-- fabric-convention-tags-v1 2.1.29+7f945d5b49
+	   |-- fabric-convention-tags-v2 2.14.3+fca633a049
+	   |-- fabric-crash-report-info-v1 0.3.12+86c3a9f149
+	   |-- fabric-data-attachment-api-v1 1.7.0+9c0dd47249
+	   |-- fabric-data-generation-api-v1 22.3.4+fd2b524049
+	   |-- fabric-dimensions-v1 4.0.17+3e6c1f7d49
+	   |-- fabric-entity-events-v1 2.0.25+27c1078f49
+	   |-- fabric-events-interaction-v0 4.0.13+73a52b4b49
+	   |-- fabric-game-rule-api-v1 1.0.70+c327076a49
+	   |-- fabric-item-api-v1 11.3.2+2ccdb6ef49
+	   |-- fabric-item-group-api-v1 4.2.8+3459fc6149
+	   |-- fabric-key-binding-api-v1 1.0.63+ecf51cdc49
+	   |-- fabric-keybindings-v0 0.2.61+df3654b349
+	   |-- fabric-loot-api-v2 3.0.47+3f89f5a549
+	   |-- fabric-loot-api-v3 1.0.35+86c3a9f149
+	   |-- fabric-message-api-v1 6.0.33+86c3a9f149
+	   |-- fabric-model-loading-api-v1 5.2.0+c982b95149
+	   |-- fabric-networking-api-v1 4.4.0+f3ffa98949
+	   |-- fabric-object-builder-api-v1 21.0.0+7b20cbb049
+	   |-- fabric-particles-v1 4.1.1+112e550e49
+	   |-- fabric-recipe-api-v1 8.1.6+052a85d049
+	   |-- fabric-registry-sync-v0 6.1.20+b556383249
+	   |-- fabric-renderer-api-v1 6.0.2+c982b95149
+	   |-- fabric-renderer-indigo 3.0.3+3e6c1f7d49
+	   |-- fabric-rendering-data-attachment-v1 0.3.64+73761d2e49
+	   |-- fabric-rendering-fluids-v1 3.1.27+86c3a9f149
+	   |-- fabric-rendering-v1 11.1.11+081cc04349
+	   |-- fabric-resource-conditions-api-v1 5.0.21+73a52b4b49
+	   |-- fabric-resource-loader-v0 3.1.6+02ca679649
+	   |-- fabric-screen-api-v1 2.0.46+86c3a9f149
+	   |-- fabric-screen-handler-api-v1 1.3.127+c327076a49
+	   |-- fabric-sound-api-v1 1.0.38+86c3a9f149
+	   |-- fabric-tag-api-v1 1.0.16+ecf51cdc49
+	   |-- fabric-transfer-api-v1 5.4.23+7b20cbb049
+	   \-- fabric-transitive-access-wideners-v1 6.3.17+f17a180c49
+	- fabric-language-kotlin 1.13.2+kotlin.2.1.20
+	   |-- org_jetbrains_kotlin_kotlin-reflect 2.1.20
+	   |-- org_jetbrains_kotlin_kotlin-stdlib 2.1.20
+	   |-- org_jetbrains_kotlin_kotlin-stdlib-jdk7 2.1.20
+	   |-- org_jetbrains_kotlin_kotlin-stdlib-jdk8 2.1.20
+	   |-- org_jetbrains_kotlinx_atomicfu-jvm 0.27.0
+	   |-- org_jetbrains_kotlinx_kotlinx-coroutines-core-jvm 1.10.1
+	   |-- org_jetbrains_kotlinx_kotlinx-coroutines-jdk8 1.10.1
+	   |-- org_jetbrains_kotlinx_kotlinx-datetime-jvm 0.6.2
+	   |-- org_jetbrains_kotlinx_kotlinx-io-bytestring-jvm 0.7.0
+	   |-- org_jetbrains_kotlinx_kotlinx-io-core-jvm 0.7.0
+	   |-- org_jetbrains_kotlinx_kotlinx-serialization-cbor-jvm 1.8.0
+	   |-- org_jetbrains_kotlinx_kotlinx-serialization-core-jvm 1.8.0
+	   \-- org_jetbrains_kotlinx_kotlinx-serialization-json-jvm 1.8.0
+	- fabricloader 0.16.14
+	   \-- mixinextras 0.4.1
+	- fastback 0.24.1+1.21.5-fabric
+	   |-- com_googlecode_javaewah_javaewah 1.2.3
+	   |-- fabric-permissions-api-v0 0.3.3
+	   |-- net_i2p_crypto_eddsa 0.3.0
+	   |-- org_apache_sshd_sshd-common 2.14.0
+	   |-- org_apache_sshd_sshd-core 2.14.0
+	   |-- org_eclipse_jgit_org_eclipse_jgit 6.10.0.202406032230-r
+	   |-- org_eclipse_jgit_org_eclipse_jgit_ssh_apache 6.10.0.202406032230-r
+	   \-- server_translations_api 2.5.0+1.21.5-rc1
+	        \-- packet_tweaker 0.6.0-pre.1+1.21.2-pre3
+	- ferritecore 8.0.0
+	- floodgate 2.2.4-SNAPSHOT
+	   |-- aopalliance_aopalliance 1.0
+	   |-- cloud 2.0.0-beta.10
+	   |    |-- io_leangen_geantyref_geantyref 1.3.15
+	   |    |-- org_incendo_cloud-brigadier 2.0.0-beta.10
+	   |    |-- org_incendo_cloud-core 2.0.0
+	   |    |-- org_incendo_cloud-minecraft-modded-common-fabric-repack 2.0.0-beta.10
+	   |    \-- org_incendo_cloud-services 2.0.0
+	   |-- com_google_guava_failureaccess 1.0.1
+	   |-- fabric-permissions-api-v0 0.3.3
+	   |-- jakarta_inject_jakarta_inject-api 2.0.1
+	   |-- javax_inject_javax_inject 1
+	   |-- org_geysermc_cumulus_cumulus 1.1.2
+	   |-- org_geysermc_event_events 1.1-SNAPSHOT
+	   |-- org_geysermc_geyser_common_unshaded 2.2.1-SNAPSHOT
+	   |-- org_java-websocket_java-websocket 1.5.2
+	   \-- org_lanternpowered_lmbda 2.0.0
+	- forgeconfigapiport 21.5.1
+	   |-- com_electronwill_night-config_core 3.8.1
+	   \-- com_electronwill_night-config_toml 3.8.1
+	- geyser-fabric 2.7.1-SNAPSHOT
+	   |-- cloud 2.0.0-beta.10
+	   |    |-- io_leangen_geantyref_geantyref 1.3.15
+	   |    |-- org_incendo_cloud-brigadier 2.0.0-beta.10
+	   |    |-- org_incendo_cloud-core 2.0.0
+	   |    |-- org_incendo_cloud-minecraft-modded-common-fabric-repack 2.0.0-beta.10
+	   |    \-- org_incendo_cloud-services 2.0.0
+	   |-- com_fasterxml_jackson_core_jackson-annotations 2.18.0
+	   |-- com_fasterxml_jackson_core_jackson-core 2.18.0
+	   |-- com_fasterxml_jackson_core_jackson-databind 2.18.0
+	   |-- com_fasterxml_jackson_dataformat_jackson-dataformat-yaml 2.18.0
+	   |-- com_google_errorprone_error_prone_annotations 2.27.0
+	   |-- com_nukkitx_natives 1.0.3
+	   |-- fabric-permissions-api-v0 0.3.3
+	   |-- io_airlift_aircompressor 0.27
+	   |-- io_jsonwebtoken_jjwt-api 0.12.6
+	   |-- io_jsonwebtoken_jjwt-gson 0.12.6
+	   |-- io_jsonwebtoken_jjwt-impl 0.12.6
+	   |-- io_netty_netty-codec-dns 4.1.107
+	   |-- io_netty_netty-codec-haproxy 4.1.107
+	   |-- io_netty_netty-resolver-dns-classes-macos 4.1.107
+	   |-- net_jodah_expiringmap 0.5.10
+	   |-- net_kyori_adventure-api 4.17.0
+	   |-- net_kyori_adventure-key 4.17.0
+	   |-- net_kyori_adventure-nbt 4.17.0
+	   |-- net_kyori_adventure-text-serializer-gson 4.17.0
+	   |-- net_kyori_adventure-text-serializer-json 4.17.0
+	   |-- net_kyori_adventure-text-serializer-json-legacy-impl 4.17.0
+	   |-- net_kyori_adventure-text-serializer-legacy 4.17.0
+	   |-- net_kyori_adventure-text-serializer-plain 4.17.0
+	   |-- net_kyori_examination-api 1.3.0
+	   |-- net_kyori_examination-string 1.3.0
+	   |-- net_kyori_option 1.0.0
+	   |-- net_lenni0451_commons_httpclient 1.6.0
+	   |-- net_raphimc_minecraftauth 4.1.1
+	   |-- org_bitbucket_b_c_jose4j 0.9.6
+	   |-- org_cloudburstmc_math_api 2.0
+	   |-- org_cloudburstmc_math_immutable 2.0
+	   |-- org_cloudburstmc_nbt 3.0.3
+	   |-- org_geysermc_api_base-api 1.0.2
+	   |-- org_geysermc_cumulus_cumulus 1.1.2
+	   |-- org_geysermc_event_events 1.1-SNAPSHOT
+	   \-- org_lanternpowered_lmbda 2.0.0
+	- grindenchantments 4.0.1+1.21.5
+	   \-- codec-config-api 3.0.2+1.21.4
+	- harvest_with_ease 9.4.0
+	- infinitetrading 4.6
+	- java 23
+	- krypton 0.2.9
+	   \-- com_velocitypowered_velocity-native 3.4.0-SNAPSHOT
+	- ksyxis 1.3.3
+	- leavesbegone 21.5.2
+	- lithium 0.16.2+mc1.21.5
+	- minecraft 1.21.5
+	- netherportalfix 21.5.1
+	- nochatreports 1.21.5-v2.12.0
+	- notenoughcrashes 4.4.8+1.21.5
+	- placeholder-api 2.6.3+1.21.5
+	- puzzleslib 21.5.10
+	- securecrops 2.0.1
+	- servercore 1.5.10+1.21.5
+	   |-- fabric-permissions-api-v0 0.3.3
+	   |-- org_yaml_snakeyaml 2.3
+	   |-- space_arim_dazzleconf_dazzleconf-core 1.3.0-M2
+	   \-- space_arim_dazzleconf_dazzleconf-ext-snakeyaml 1.3.0-M2
+	- servux 0.6.0
+	   \-- fabric-permissions-api-v0 0.3.3
+	- silk-all 1.11.1
+	   |-- silk-commands 1.11.1
+	   |-- silk-core 1.11.1
+	   |-- silk-game 1.11.1
+	   |-- silk-igui 1.11.1
+	   |-- silk-nbt 1.11.1
+	   |-- silk-network 1.11.1
+	   \-- silk-persistence 1.11.1
+	- sit-oth3r 1.2.3.2+1.21.5
+	- spark 1.10.128
+	   \-- fabric-permissions-api-v0 0.3.3
+	- tcdcommons 3.12.7+fabric-1.21.5
+	- threadtweak 0.1.7+mc1.21.5
+	- toofast 3.3.0
+	- vcinteraction 1.21.5-1.0.8
+	   |-- fabric-api-base 0.4.62+73a52b4b07
+	   |-- fabric-lifecycle-events-v1 2.5.13+5cbce67307
+	   \-- polymer-registry-sync-manipulator 0.12.1+1.21.5-rc2
+	- veinminer 2.4.2
+	   |-- de_miraculixx_core_dev 2.4.2
+	   \-- fabric-permissions-api-v0 0.3.3
+	- veinminer-enchantment 2.2.2
+	- villager-pickup 1.1.5-1.21.5
+	- voicechat 1.21.5-2.5.30
+	   |-- fabric-api-base 0.4.62+73a52b4b07
+	   |-- fabric-command-api-v2 2.2.49+73a52b4b07
+	   |-- fabric-key-binding-api-v1 1.0.63+ecf51cdc07
+	   \-- fabric-lifecycle-events-v1 2.5.13+5cbce67307
+	- yet_another_config_lib_v3 3.6.6+1.21.5-fabric
+	   |-- com_twelvemonkeys_common_common-image 3.12.0
+	   |-- com_twelvemonkeys_common_common-io 3.12.0
+	   |-- com_twelvemonkeys_common_common-lang 3.12.0
+	   |-- com_twelvemonkeys_imageio_imageio-core 3.12.0
+	   |-- com_twelvemonkeys_imageio_imageio-metadata 3.12.0
+	   |-- com_twelvemonkeys_imageio_imageio-webp 3.12.0
+	   |-- org_quiltmc_parsers_gson 0.2.1
+	   \-- org_quiltmc_parsers_json 0.2.1
+[18:19:20] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/D:/Minecraft/Servers/Jepserver/libraries/net/fabricmc/sponge-mixin/0.15.5+mixin.0.8.7/sponge-mixin-0.15.5+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[18:19:20] [main/INFO]: Compatibility level set to JAVA_21
+[18:19:20] [main/WARN]: Reference map 'dcintegration-fabric-MC1.21.5-fabric-refmap.json' for fabric-like.dcintegration.mixins.json could not be read. If this is a development environment you can ignore this message
+[18:19:21] [main/WARN]: Reference map 'forgeconfigapiport.common.refmap.json' for forgeconfigapiport.common.mixins.json could not be read. If this is a development environment you can ignore this message
+[18:19:21] [main/WARN]: Reference map 'harvest_with_ease.refmap.json' for harvest_with_ease.mixins.json could not be read. If this is a development environment you can ignore this message
+[18:19:21] [main/WARN]: Reference map 'harvest_with_ease.refmap.json' for harvest_with_ease.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[18:19:21] [main/WARN]: Reference map 'leavesbegone.fabric.refmap.json' for leavesbegone.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[18:19:21] [main/WARN]: Mod 'ferritecore' attempted to override option 'mixin.alloc.blockstate', which doesn't exist, ignoring
+[18:19:21] [main/INFO]: Loaded configuration file for Lithium: 155 options available, 0 override(s) found.
+[18:19:21] [main/WARN]: Error loading class: eu/pb4/styledchat/StyledChatUtils (java.lang.ClassNotFoundException: eu/pb4/styledchat/StyledChatUtils)
+[18:19:21] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[18:19:22] [main/INFO]: ThreadTweak config initialized
+[18:19:27] [main/INFO]: Loading Collective version 8.3.
+[18:19:27] [main/INFO]: Enabled 27 bug fixes: [MC-2025, MC-7569, MC-8187, MC-30391, MC-69216, MC-88371, MC-89146, MC-93018, MC-100991, MC-119417, MC-119754, MC-121706, MC-121903, MC-129909, MC-132878, MC-155509, MC-160095, MC-179072, MC-183990, MC-199467, MC-200418, MC-206922, MC-215530, MC-223153, MC-224729, MC-231743, MC-232869]
+[18:19:27] [main/INFO]: Successfully Debugify'd your game!
+[18:19:28] [main/INFO]: Loading extensions...
+[18:19:28] [main/INFO]: Loaded 0 extension(s)
+[18:19:28] [main/INFO]: Compression will use Java, encryption will use Java
+[18:19:28] [main/INFO]: Ksyxis: Booting... (platform: Fabric, manual: false)
+[18:19:28] [main/INFO]: Ksyxis: Found Mixin library. (version: 0.8.7)
+[18:19:28] [main/INFO]: Ksyxis: Ready. As always, this mod will speed up your world loading and might or might not break it. (1 ms)
+[18:19:28] [main/INFO]: Constructing common components for leavesbegone:main
+[18:19:28] [main/INFO]: Constructing common components for puzzleslib:main
+[18:19:28] [main/INFO]: [ServerCore] Loaded V1.5.10+1.21.5!
+[18:19:29] [main/INFO]: Initializing Silk
+[18:19:29] [main/INFO]: Veinminer Version: 2.4.2 (fabric)
+[18:19:29] [main/INFO]: Veinminer-Enchantment Version: 2.2.2 (fabric)
+[18:19:29] [main/INFO]: [voicechat] Compatibility version 18
+[18:19:29] [main/INFO]: [voicechat] Loading plugins
+[18:19:29] [main/INFO]: [voicechat] Loaded 2 plugin(s)
+[18:19:29] [main/INFO]: [voicechat] Initializing plugins
+[18:19:29] [main/INFO]: [voicechat] Initialized 2 plugin(s)
+[18:19:29] [main/INFO]: [voicechat] Registering events for 'audioplayer'
+[18:19:29] [main/INFO]: [voicechat] Registering events for 'vcinteraction'
+[18:19:29] [main/INFO]: Initializing 'Better Statistics Screen' as 'BetterStatsServer'.
+[18:19:29] [main/INFO]: git is installed: git version 2.48.1.windows.1
+[18:19:29] [DefaultDispatcher-worker-1/INFO]: [STDOUT]: [VeinminerUpdater] veinminer is up to date
+[18:19:29] [main/INFO]: git-lfs is installed: git-lfs/3.6.1 (GitHub; windows amd64; go 1.23.3; git ea47a34b)
+[18:19:29] [main/INFO]: SshSessionFactory: org.eclipse.jgit.transport.sshd.SshdSessionFactory@6e4fd213
+[18:19:29] [main/INFO]: Krypton is now accelerating your Minecraft server's networking stack 🚀
+[18:19:29] [main/INFO]: Initializing 'TCD Commons API' 3.12.7+fabric-1.21.5 as 'TCDCommonsServer'.
+[18:19:29] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[18:19:31] [Worker-Main-3/WARN]: Found loot table element validation problem in {minecraft:loot_table/minecraft:entities/shulker}.pools[2].entries[0]: Unknown loot table called more_mob_heads:entities/shulker
+[18:19:31] [main/INFO]: Loaded 1670 recipes
+[18:19:31] [main/INFO]: Loaded 1753 advancements
+[18:19:31] [ForkJoinPool.commonPool-worker-1/INFO]: Loaded 102 translation keys
+[18:19:32] [main/INFO]: Applied 0 biome modifications to 0 of 65 new biomes in 3.210 ms
+[18:19:32] [Server thread/INFO]: Initialized mcCoroutineScope (MinecraftServer as executor)
+[18:19:32] [Server thread/INFO]: Dispatching loading event for config leavesbegone-server.toml
+[18:19:32] [Server thread/INFO]: [Grind Enchantments] Reading server config.
+[18:19:32] [Server thread/INFO]: Starting background profiler...
+[18:19:32] [Server thread/INFO]: The async-profiler engine is not supported for your os/arch (windows11/amd64), so the built-in Java engine will be used instead.
+[18:19:32] [Server thread/INFO]: Waiting for JDA to initialize to send starting message... (max 5 seconds before skipping)
+[18:19:33] [DiscordIntegration Launch Thread/INFO]: Login Successful!
+[18:19:33] [JDA MainWS-ReadThread/INFO]: Connected to WebSocket
+[18:19:33] [JDA MainWS-ReadThread/INFO]: Finished Loading!
+[18:19:33] [DiscordIntegration Launch Thread/INFO]: Bot ready
+[18:19:33] [DiscordIntegration Launch Thread/INFO]: Loading DiscordIntegration Addons...
+[18:19:33] [DiscordIntegration Launch Thread/INFO]: Addon loading complete!
+[18:19:33] [DiscordIntegration Launch Thread/INFO]: Loading Linking Database...
+[18:19:33] [DiscordIntegration Launch Thread/INFO]: Linking Database initialized!
+[18:19:35] [Server thread/INFO]: Starting to register custom commands from config...
+[18:19:35] [Server thread/INFO]: Finished registering! Registered 8 commands
+[18:19:35] [Server thread/INFO]: Starting minecraft server version 1.21.5
+[18:19:35] [Server thread/INFO]: Loading properties
+[18:19:35] [Server thread/INFO]: Default game type: SURVIVAL
+[18:19:35] [Server thread/INFO]: Generating keypair
+[18:19:35] [Server thread/INFO]: Starting Minecraft server on *:25565
+[18:19:35] [Server thread/INFO]: Using default channel type
+[18:19:35] [Server thread/INFO]: Preparing level "world"
+[18:19:36] [Server thread/INFO]: Ksyxis: Hey. This is Ksyxis. We will now load the world and will try to do it quickly. If the game is not responding after this, it's probably us to blame or delete for good. This message appears always, even if the mod works flawlessly. (modern)
+[18:19:36] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[18:19:36] [Server thread/INFO]: Time elapsed: 22 ms
+[18:19:36] [Server thread/INFO]: Done (0.398s)! For help, type "help"
+[18:19:36] [Server thread/INFO]: Loading audio file volume overrides...
+[18:19:36] [Server thread/INFO]: Loading audio file name mappings...
+[18:19:36] [Server thread/INFO]: Took 25ms to boot Floodgate
+[18:19:36] [Server thread/INFO]: ******************************************
+[18:19:36] [Server thread/INFO]: 
+[18:19:36] [Server thread/INFO]: Loading Geyser version 2.7.1-b826 (git-master-bfbbf6c)
+[18:19:36] [Server thread/INFO]: 
+[18:19:36] [Server thread/INFO]: ******************************************
+[18:19:38] [Server thread/INFO]: Started Geyser on UDP port 19132
+[18:19:38] [Server thread/INFO]: Done (2.361s)! Run /geyser help for help!
+[18:19:38] [VoiceChatServerThread/INFO]: [voicechat] Voice chat server started at port 24454
+[18:19:38] [Server thread/INFO]: Started
+[18:19:38] [DiscordIntegration-Core WorkerThread/INFO]: No need to regenerate local commands
+[18:19:38] [DiscordIntegration-Core WorkerThread/INFO]: No need to regenerate global commands
+[18:19:38] [DiscordIntegration-Core WorkerThread/INFO]: Added command list with ID 1371191864660725852
+[18:19:38] [DiscordIntegration-Core WorkerThread/INFO]: Added command uptime with ID 1371191864660725853
+[18:19:38] [DiscordIntegration-Core WorkerThread/INFO]: Added command settings with ID 1371191864660725854
+[18:19:38] [DiscordIntegration-Core WorkerThread/INFO]: Added command linkcheck with ID 1371191864660725855
+[18:19:38] [DiscordIntegration-Core WorkerThread/INFO]: Added command link with ID 1371191864660725856
+[18:19:38] [DiscordIntegration-Core WorkerThread/INFO]: Added command kick with ID 1371191864660725857
+[18:19:38] [DiscordIntegration-Core WorkerThread/INFO]: Added command stop with ID 1371191864660725858
+[18:19:38] [DiscordIntegration-Core WorkerThread/INFO]: Added command kill with ID 1371191864660725859
+[18:19:39] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2949ms or 58 ticks behind
+[18:20:11] [User Authenticator #1/INFO]: UUID of player ColonialKreeper is 51dce09c-9b97-42d5-afa3-309b6d609d92
+[18:20:13] [Server thread/INFO]: ColonialKreeper[/127.0.0.1:50759] logged in with entity id 1 at (-9.5, 95.0, 130.5)
+[18:20:14] [Server thread/INFO]: Using Fabric Permissions API
+[18:20:14] [Server thread/INFO]: [voicechat] Using Fabric Permissions API
+[18:20:14] [Server thread/INFO]: ColonialKreeper joined the game
+[18:20:14] [DefaultDispatcher-worker-1/INFO]: ColonialKreeper joined with Veinminer version 2.4.2
+[18:20:16] [Server thread/INFO]: Received custom sitting settings from ColonialKreeper!
+[18:20:16] [Server thread/INFO]: [voicechat] Received secret request of ColonialKreeper (18)
+[18:20:16] [Server thread/INFO]: [voicechat] Sent secret to ColonialKreeper
+[18:20:16] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3799ms or 75 ticks behind
+[18:20:16] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 51dce09c-9b97-42d5-afa3-309b6d609d92
+[18:20:17] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player 51dce09c-9b97-42d5-afa3-309b6d609d92
+[18:20:18] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player ColonialKreeper (51dce09c-9b97-42d5-afa3-309b6d609d92) successfully connected to voice chat
+[18:20:24] [pool-13-thread-1/ERROR]: org.eclipse.jgit.api.errors.TransportException: origin: not found.
+java.io.IOException: org.eclipse.jgit.api.errors.TransportException: origin: not found.
+	at knot/net.pcal.fastback.repo.RepoImpl.lambda$getRemoteSnapshots$1(RepoImpl.java:212) ~[fastback-0.24.1+1.21.5-fabric%20(1).jar:?]
+	at knot/net.pcal.fastback.repo.BranchUtils.listSnapshots(BranchUtils.java:44) ~[fastback-0.24.1+1.21.5-fabric%20(1).jar:?]
+	at knot/net.pcal.fastback.repo.RepoImpl.getRemoteSnapshots(RepoImpl.java:216) ~[fastback-0.24.1+1.21.5-fabric%20(1).jar:?]
+	at knot/net.pcal.fastback.commands.RemoteListCommand.lambda$execute$1(RemoteListCommand.java:57) ~[fastback-0.24.1+1.21.5-fabric%20(1).jar:?]
+	at knot/net.pcal.fastback.commands.Commands.lambda$gitOp$0(Commands.java:131) ~[fastback-0.24.1+1.21.5-fabric%20(1).jar:?]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[?:?]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1575) [?:?]
+Caused by: org.eclipse.jgit.api.errors.TransportException: origin: not found.
+	at knot/org.eclipse.jgit.api.LsRemoteCommand.execute(LsRemoteCommand.java:192) ~[org_eclipse_jgit_org_eclipse_jgi406032230-r-2690a86150c58968.jar:?]
+	at knot/org.eclipse.jgit.api.LsRemoteCommand.call(LsRemoteCommand.java:131) ~[org_eclipse_jgit_org_eclipse_jgi406032230-r-2690a86150c58968.jar:?]
+	at knot/net.pcal.fastback.repo.RepoImpl.lambda$getRemoteSnapshots$1(RepoImpl.java:210) ~[fastback-0.24.1+1.21.5-fabric%20(1).jar:?]
+	... 9 more
+Caused by: org.eclipse.jgit.errors.NoRemoteRepositoryException: origin: not found.
+	at knot/org.eclipse.jgit.transport.TransportLocal$1.open(TransportLocal.java:100) ~[org_eclipse_jgit_org_eclipse_jgi406032230-r-2690a86150c58968.jar:?]
+	at knot/org.eclipse.jgit.transport.TransportBundleFile$1.open(TransportBundleFile.java:74) ~[org_eclipse_jgit_org_eclipse_jgi406032230-r-2690a86150c58968.jar:?]
+	at knot/org.eclipse.jgit.transport.Transport.open(Transport.java:525) ~[org_eclipse_jgit_org_eclipse_jgi406032230-r-2690a86150c58968.jar:?]
+	at knot/org.eclipse.jgit.transport.Transport.open(Transport.java:277) ~[org_eclipse_jgit_org_eclipse_jgi406032230-r-2690a86150c58968.jar:?]
+	at knot/org.eclipse.jgit.transport.Transport.open(Transport.java:247) ~[org_eclipse_jgit_org_eclipse_jgi406032230-r-2690a86150c58968.jar:?]
+	at knot/org.eclipse.jgit.api.LsRemoteCommand.execute(LsRemoteCommand.java:158) ~[org_eclipse_jgit_org_eclipse_jgi406032230-r-2690a86150c58968.jar:?]
+	at knot/org.eclipse.jgit.api.LsRemoteCommand.call(LsRemoteCommand.java:131) ~[org_eclipse_jgit_org_eclipse_jgi406032230-r-2690a86150c58968.jar:?]
+	at knot/net.pcal.fastback.repo.RepoImpl.lambda$getRemoteSnapshots$1(RepoImpl.java:210) ~[fastback-0.24.1+1.21.5-fabric%20(1).jar:?]
+	... 9 more
+[18:23:43] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[18:23:43] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[18:23:43] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[18:23:43] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[18:23:43] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[18:23:43] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[18:23:43] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[18:23:44] [pool-13-thread-2/INFO]: The server is starting a backup.
+[18:24:10] [pool-13-thread-4/ERROR]: org.eclipse.jgit.api.errors.TransportException: https://github.com/TestSubject-404/Jepserver.git: Authentication is required but no CredentialsProvider has been registered
+java.io.IOException: org.eclipse.jgit.api.errors.TransportException: https://github.com/TestSubject-404/Jepserver.git: Authentication is required but no CredentialsProvider has been registered
+	at knot/net.pcal.fastback.repo.PushUtils.doPush(PushUtils.java:121) ~[fastback-0.24.1+1.21.5-fabric%20(1).jar:?]
+	at knot/net.pcal.fastback.repo.RepoImpl.doPushSnapshot(RepoImpl.java:139) ~[fastback-0.24.1+1.21.5-fabric%20(1).jar:?]
+	at knot/net.pcal.fastback.commands.PushCommand.lambda$execute$0(PushCommand.java:64) ~[fastback-0.24.1+1.21.5-fabric%20(1).jar:?]
+	at knot/net.pcal.fastback.commands.Commands.lambda$gitOp$0(Commands.java:131) ~[fastback-0.24.1+1.21.5-fabric%20(1).jar:?]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[?:?]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1575) [?:?]
+Caused by: org.eclipse.jgit.api.errors.TransportException: https://github.com/TestSubject-404/Jepserver.git: Authentication is required but no CredentialsProvider has been registered
+	at knot/org.eclipse.jgit.api.LsRemoteCommand.execute(LsRemoteCommand.java:192) ~[org_eclipse_jgit_org_eclipse_jgi406032230-r-2690a86150c58968.jar:?]
+	at knot/org.eclipse.jgit.api.LsRemoteCommand.call(LsRemoteCommand.java:131) ~[org_eclipse_jgit_org_eclipse_jgi406032230-r-2690a86150c58968.jar:?]
+	at knot/net.pcal.fastback.repo.PushUtils.doPush(PushUtils.java:88) ~[fastback-0.24.1+1.21.5-fabric%20(1).jar:?]
+	... 8 more
+Caused by: org.eclipse.jgit.errors.TransportException: https://github.com/TestSubject-404/Jepserver.git: Authentication is required but no CredentialsProvider has been registered
+	at knot/org.eclipse.jgit.transport.TransportHttp.connect(TransportHttp.java:687) ~[org_eclipse_jgit_org_eclipse_jgi406032230-r-2690a86150c58968.jar:?]
+	at knot/org.eclipse.jgit.transport.TransportHttp.openFetch(TransportHttp.java:465) ~[org_eclipse_jgit_org_eclipse_jgi406032230-r-2690a86150c58968.jar:?]
+	at knot/org.eclipse.jgit.api.LsRemoteCommand.execute(LsRemoteCommand.java:170) ~[org_eclipse_jgit_org_eclipse_jgi406032230-r-2690a86150c58968.jar:?]
+	at knot/org.eclipse.jgit.api.LsRemoteCommand.call(LsRemoteCommand.java:131) ~[org_eclipse_jgit_org_eclipse_jgi406032230-r-2690a86150c58968.jar:?]
+	at knot/net.pcal.fastback.repo.PushUtils.doPush(PushUtils.java:88) ~[fastback-0.24.1+1.21.5-fabric%20(1).jar:?]
+	... 8 more
+[18:26:27] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[18:26:27] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[18:26:27] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[18:26:27] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[18:26:27] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[18:26:27] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[18:26:27] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[18:26:27] [pool-13-thread-7/INFO]: The server is starting a backup.
+[18:26:29] [pool-13-thread-7/ERROR]: org.eclipse.jgit.api.errors.TransportException: https://github.com/TestSubject-404/Jepserver.git: Authentication is required but no CredentialsProvider has been registered
+java.io.IOException: org.eclipse.jgit.api.errors.TransportException: https://github.com/TestSubject-404/Jepserver.git: Authentication is required but no CredentialsProvider has been registered
+	at knot/net.pcal.fastback.repo.PushUtils.doPush(PushUtils.java:121) ~[fastback-0.24.1+1.21.5-fabric%20(1).jar:?]
+	at knot/net.pcal.fastback.repo.RepoImpl.doCommitAndPush(RepoImpl.java:104) ~[fastback-0.24.1+1.21.5-fabric%20(1).jar:?]
+	at knot/net.pcal.fastback.commands.FullCommand.lambda$run$1(FullCommand.java:65) ~[fastback-0.24.1+1.21.5-fabric%20(1).jar:?]
+	at knot/net.pcal.fastback.commands.Commands.lambda$gitOp$0(Commands.java:131) ~[fastback-0.24.1+1.21.5-fabric%20(1).jar:?]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[?:?]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1575) [?:?]
+Caused by: org.eclipse.jgit.api.errors.TransportException: https://github.com/TestSubject-404/Jepserver.git: Authentication is required but no CredentialsProvider has been registered
+	at knot/org.eclipse.jgit.api.LsRemoteCommand.execute(LsRemoteCommand.java:192) ~[org_eclipse_jgit_org_eclipse_jgi406032230-r-2690a86150c58968.jar:?]
+	at knot/org.eclipse.jgit.api.LsRemoteCommand.call(LsRemoteCommand.java:131) ~[org_eclipse_jgit_org_eclipse_jgi406032230-r-2690a86150c58968.jar:?]
+	at knot/net.pcal.fastback.repo.PushUtils.doPush(PushUtils.java:88) ~[fastback-0.24.1+1.21.5-fabric%20(1).jar:?]
+	... 8 more
+Caused by: org.eclipse.jgit.errors.TransportException: https://github.com/TestSubject-404/Jepserver.git: Authentication is required but no CredentialsProvider has been registered
+	at knot/org.eclipse.jgit.transport.TransportHttp.connect(TransportHttp.java:687) ~[org_eclipse_jgit_org_eclipse_jgi406032230-r-2690a86150c58968.jar:?]
+	at knot/org.eclipse.jgit.transport.TransportHttp.openFetch(TransportHttp.java:465) ~[org_eclipse_jgit_org_eclipse_jgi406032230-r-2690a86150c58968.jar:?]
+	at knot/org.eclipse.jgit.api.LsRemoteCommand.execute(LsRemoteCommand.java:170) ~[org_eclipse_jgit_org_eclipse_jgi406032230-r-2690a86150c58968.jar:?]
+	at knot/org.eclipse.jgit.api.LsRemoteCommand.call(LsRemoteCommand.java:131) ~[org_eclipse_jgit_org_eclipse_jgi406032230-r-2690a86150c58968.jar:?]
+	at knot/net.pcal.fastback.repo.PushUtils.doPush(PushUtils.java:88) ~[fastback-0.24.1+1.21.5-fabric%20(1).jar:?]
+	... 8 more
+[18:26:56] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[18:26:57] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[18:26:57] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[18:26:57] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[18:26:57] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[18:26:57] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[18:26:57] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[18:26:57] [pool-13-thread-8/INFO]: The server is starting a backup.
+[18:28:18] [Server thread/INFO]: ColonialKreeper lost connection: Disconnected
+[18:28:18] [Server thread/INFO]: ColonialKreeper left the game
+[18:28:18] [Server thread/INFO]: [voicechat] Disconnecting client ColonialKreeper
+[18:29:18] [Server thread/INFO]: Server empty for 60 seconds, pausing
+[18:43:03] [pool-13-thread-8/ERROR]: [STDOUT] Uploading LFS objects: 100% (574/574), 1.2 GB | 1.2 MB/s, done.
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Enumerating objects: 641, done.
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Counting objects:   0% (1/641)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Counting objects:   1% (7/641)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Counting objects:   2% (13/641)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Counting objects:   3% (20/641)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Counting objects:   4% (26/641)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Counting objects:   5% (33/641)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Counting objects:   6% (39/641)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Counting objects:   7% (45/641)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Counting objects:   8% (52/641)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Counting objects:   9% (58/641)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Counting objects:  10% (65/641)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Counting objects:  11% (71/641)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Counting objects:  12% (77/641)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Counting objects:  13% (84/641)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Counting objects:  14% (90/641)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Counting objects:  15% (97/641)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Counting objects:  16% (103/641)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Counting objects:  17% (109/641)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Counting objects:  18% (116/641)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Counting objects:  19% (122/641)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Counting objects:  20% (129/641)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Counting objects:  21% (135/641)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Counting objects:  22% (142/641)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Counting objects:  23% (148/641)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Counting objects:  24% (154/641)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Counting objects:  25% (161/641)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Counting objects:  26% (167/641)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Counting objects:  27% (174/641)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Counting objects:  28% (180/641)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Counting objects:  29% (186/641)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Counting objects:  30% (193/641)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Counting objects:  31% (199/641)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Counting objects:  32% (206/641)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Counting objects:  33% (212/641)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Counting objects:  34% (218/641)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Counting objects:  35% (225/641)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Counting objects:  36% (231/641)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Counting objects:  37% (238/641)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Counting objects:  38% (244/641)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Counting objects:  39% (250/641)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Counting objects:  40% (257/641)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Counting objects:  41% (263/641)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Counting objects:  42% (270/641)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Counting objects:  43% (276/641)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Counting objects:  44% (283/641)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Counting objects:  45% (289/641)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Counting objects:  46% (295/641)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Counting objects:  47% (302/641)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Counting objects:  48% (308/641)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Counting objects:  49% (315/641)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Counting objects:  50% (321/641)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Counting objects:  51% (327/641)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Counting objects:  52% (334/641)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Counting objects:  53% (340/641)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Counting objects:  54% (347/641)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Counting objects:  55% (353/641)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Counting objects:  56% (359/641)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Counting objects:  57% (366/641)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Counting objects:  58% (372/641)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Counting objects:  59% (379/641)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Counting objects:  60% (385/641)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Counting objects:  61% (392/641)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Counting objects:  62% (398/641)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Counting objects:  63% (404/641)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Counting objects:  64% (411/641)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Counting objects:  65% (417/641)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Counting objects:  66% (424/641)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Counting objects:  67% (430/641)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Counting objects:  68% (436/641)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Counting objects:  69% (443/641)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Counting objects:  70% (449/641)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Counting objects:  71% (456/641)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Counting objects:  72% (462/641)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Counting objects:  73% (468/641)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Counting objects:  74% (475/641)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Counting objects:  75% (481/641)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Counting objects:  76% (488/641)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Counting objects:  77% (494/641)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Counting objects:  78% (500/641)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Counting objects:  79% (507/641)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Counting objects:  80% (513/641)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Counting objects:  81% (520/641)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Counting objects:  82% (526/641)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Counting objects:  83% (533/641)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Counting objects:  84% (539/641)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Counting objects:  85% (545/641)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Counting objects:  86% (552/641)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Counting objects:  87% (558/641)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Counting objects:  88% (565/641)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Counting objects:  89% (571/641)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Counting objects:  90% (577/641)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Counting objects:  91% (584/641)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Counting objects:  92% (590/641)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Counting objects:  93% (597/641)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Counting objects:  94% (603/641)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Counting objects:  95% (609/641)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Counting objects:  96% (616/641)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Counting objects:  97% (622/641)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Counting objects:  98% (629/641)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Counting objects:  99% (635/641)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Counting objects: 100% (641/641)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Counting objects: 100% (641/641), done.
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Delta compression using up to 16 threads
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Compressing objects:   0% (1/638)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Compressing objects:   1% (7/638)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Compressing objects:   2% (13/638)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Compressing objects:   3% (20/638)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Compressing objects:   4% (26/638)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Compressing objects:   5% (32/638)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Compressing objects:   6% (39/638)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Compressing objects:   7% (45/638)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Compressing objects:   8% (52/638)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Compressing objects:   9% (58/638)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Compressing objects:  10% (64/638)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Compressing objects:  11% (71/638)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Compressing objects:  12% (77/638)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Compressing objects:  13% (83/638)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Compressing objects:  14% (90/638)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Compressing objects:  15% (96/638)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Compressing objects:  16% (103/638)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Compressing objects:  17% (109/638)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Compressing objects:  18% (115/638)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Compressing objects:  19% (122/638)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Compressing objects:  20% (128/638)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Compressing objects:  21% (134/638)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Compressing objects:  22% (141/638)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Compressing objects:  23% (147/638)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Compressing objects:  24% (154/638)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Compressing objects:  25% (160/638)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Compressing objects:  26% (166/638)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Compressing objects:  27% (173/638)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Compressing objects:  28% (179/638)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Compressing objects:  29% (186/638)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Compressing objects:  30% (192/638)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Compressing objects:  31% (198/638)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Compressing objects:  32% (205/638)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Compressing objects:  33% (211/638)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Compressing objects:  34% (217/638)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Compressing objects:  35% (224/638)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Compressing objects:  36% (230/638)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Compressing objects:  37% (237/638)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Compressing objects:  38% (243/638)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Compressing objects:  39% (249/638)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Compressing objects:  40% (256/638)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Compressing objects:  41% (262/638)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Compressing objects:  42% (268/638)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Compressing objects:  43% (275/638)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Compressing objects:  44% (281/638)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Compressing objects:  45% (288/638)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Compressing objects:  46% (294/638)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Compressing objects:  47% (300/638)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Compressing objects:  48% (307/638)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Compressing objects:  49% (313/638)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Compressing objects:  50% (319/638)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Compressing objects:  51% (326/638)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Compressing objects:  52% (332/638)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Compressing objects:  53% (339/638)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Compressing objects:  54% (345/638)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Compressing objects:  55% (351/638)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Compressing objects:  56% (358/638)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Compressing objects:  57% (364/638)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Compressing objects:  58% (371/638)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Compressing objects:  59% (377/638)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Compressing objects:  60% (383/638)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Compressing objects:  61% (390/638)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Compressing objects:  62% (396/638)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Compressing objects:  63% (402/638)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Compressing objects:  64% (409/638)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Compressing objects:  65% (415/638)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Compressing objects:  66% (422/638)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Compressing objects:  67% (428/638)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Compressing objects:  68% (434/638)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Compressing objects:  69% (441/638)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Compressing objects:  70% (447/638)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Compressing objects:  71% (453/638)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Compressing objects:  72% (460/638)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Compressing objects:  73% (466/638)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Compressing objects:  74% (473/638)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Compressing objects:  75% (479/638)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Compressing objects:  76% (485/638)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Compressing objects:  77% (492/638)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Compressing objects:  78% (498/638)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Compressing objects:  79% (505/638)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Compressing objects:  80% (511/638)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Compressing objects:  81% (517/638)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Compressing objects:  82% (524/638)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Compressing objects:  83% (530/638)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Compressing objects:  84% (536/638)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Compressing objects:  85% (543/638)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Compressing objects:  86% (549/638)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Compressing objects:  87% (556/638)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Compressing objects:  88% (562/638)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Compressing objects:  89% (568/638)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Compressing objects:  90% (575/638)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Compressing objects:  91% (581/638)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Compressing objects:  92% (587/638)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Compressing objects:  93% (594/638)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Compressing objects:  94% (600/638)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Compressing objects:  95% (607/638)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Compressing objects:  96% (613/638)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Compressing objects:  97% (619/638)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Compressing objects:  98% (626/638)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Compressing objects:  99% (632/638)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Compressing objects: 100% (638/638)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Compressing objects: 100% (638/638), done.
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Writing objects:   0% (1/641)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Writing objects:   1% (7/641)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Writing objects:   2% (13/641)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Writing objects:   3% (20/641)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Writing objects:   4% (26/641)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Writing objects:   5% (33/641)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Writing objects:   6% (39/641)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Writing objects:   7% (45/641)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Writing objects:   8% (52/641)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Writing objects:   9% (58/641)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Writing objects:  10% (65/641)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Writing objects:  11% (71/641)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Writing objects:  12% (77/641)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Writing objects:  13% (84/641)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Writing objects:  14% (90/641)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Writing objects:  15% (97/641)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Writing objects:  16% (103/641)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Writing objects:  17% (109/641)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Writing objects:  18% (116/641)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Writing objects:  19% (122/641)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Writing objects:  20% (129/641)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Writing objects:  21% (135/641)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Writing objects:  22% (142/641)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Writing objects:  23% (148/641)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Writing objects:  24% (154/641)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Writing objects:  25% (161/641)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Writing objects:  26% (167/641)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Writing objects:  27% (174/641)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Writing objects:  28% (180/641)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Writing objects:  29% (186/641)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Writing objects:  30% (193/641)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Writing objects:  31% (199/641)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Writing objects:  32% (206/641)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Writing objects:  33% (212/641)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Writing objects:  34% (218/641)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Writing objects:  35% (225/641)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Writing objects:  36% (231/641)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Writing objects:  37% (238/641)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Writing objects:  38% (244/641)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Writing objects:  39% (250/641)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Writing objects:  40% (257/641)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Writing objects:  41% (263/641)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Writing objects:  42% (270/641)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Writing objects:  43% (276/641)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Writing objects:  44% (283/641)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Writing objects:  45% (289/641)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Writing objects:  46% (295/641)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Writing objects:  47% (302/641)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Writing objects:  48% (308/641)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Writing objects:  49% (315/641)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Writing objects:  50% (321/641)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Writing objects:  51% (327/641)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Writing objects:  52% (334/641)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Writing objects:  53% (340/641)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Writing objects:  54% (347/641)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Writing objects:  55% (353/641)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Writing objects:  56% (359/641)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Writing objects:  57% (366/641)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Writing objects:  58% (372/641)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Writing objects:  59% (379/641)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Writing objects:  60% (385/641)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Writing objects:  61% (392/641)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Writing objects:  62% (398/641)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Writing objects:  63% (404/641)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Writing objects:  64% (411/641)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Writing objects:  65% (417/641)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Writing objects:  66% (424/641)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Writing objects:  67% (430/641)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Writing objects:  68% (436/641)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Writing objects:  69% (443/641)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Writing objects:  70% (449/641)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Writing objects:  71% (456/641)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Writing objects:  72% (462/641)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Writing objects:  73% (468/641)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Writing objects:  74% (475/641)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Writing objects:  75% (481/641)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Writing objects:  76% (488/641)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Writing objects:  77% (494/641)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Writing objects:  78% (500/641)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Writing objects:  79% (507/641)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Writing objects:  80% (513/641)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Writing objects:  81% (520/641)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Writing objects:  82% (526/641)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Writing objects:  83% (533/641)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Writing objects:  84% (539/641)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Writing objects:  85% (545/641)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Writing objects:  86% (552/641)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Writing objects:  87% (558/641)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Writing objects:  88% (565/641)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Writing objects:  89% (571/641)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Writing objects:  90% (577/641)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Writing objects:  91% (584/641)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Writing objects:  92% (590/641)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Writing objects:  93% (597/641)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Writing objects:  94% (603/641)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Writing objects:  95% (609/641)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Writing objects:  96% (616/641)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Writing objects:  97% (622/641)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Writing objects:  98% (629/641)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Writing objects:  99% (635/641)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Writing objects: 100% (641/641)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Writing objects: 100% (641/641), 804.62 KiB | 13.41 MiB/s, done.
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] Total 641 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] remote: Resolving deltas:   0% (0/1)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] remote: Resolving deltas: 100% (1/1)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] remote: Resolving deltas: 100% (1/1), done.
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] remote: error: GH007: Your push would publish a private email address.
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] remote: You can make your email public or disable this protection by visiting:
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] remote: https://github.com/settings/emails
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] To https://github.com/TestSubject-404/Jepserver.git
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] ! [remote rejected] K7yF/2025-05-11_18-26-57 -> K7yF/2025-05-11_18-26-57 (push declined due to email privacy restrictions)
+[18:43:03] [pool-13-thread-8/ERROR]: [STDERR] error: failed to push some refs to 'https://github.com/TestSubject-404/Jepserver.git'
+[18:43:03] [pool-13-thread-8/ERROR]: Exit 1 when executing: git -C D:\Minecraft\Servers\Jepserver\world -c push.autosetupremote=false push --progress --set-upstream origin K7yF/2025-05-11_18-26-57
+net.pcal.fastback.utils.ProcessException: Exit 1 when executing: git -C D:\Minecraft\Servers\Jepserver\world -c push.autosetupremote=false push --progress --set-upstream origin K7yF/2025-05-11_18-26-57
+	at knot/net.pcal.fastback.utils.ProcessUtils.doExec(ProcessUtils.java:81) ~[fastback-0.24.1+1.21.5-fabric%20(1).jar:?]
+	at knot/net.pcal.fastback.utils.ProcessUtils.doExec(ProcessUtils.java:44) ~[fastback-0.24.1+1.21.5-fabric%20(1).jar:?]
+	at knot/net.pcal.fastback.repo.PushUtils.native_doPush(PushUtils.java:133) ~[fastback-0.24.1+1.21.5-fabric%20(1).jar:?]
+	at knot/net.pcal.fastback.repo.PushUtils.doPush(PushUtils.java:110) ~[fastback-0.24.1+1.21.5-fabric%20(1).jar:?]
+	at knot/net.pcal.fastback.repo.RepoImpl.doCommitAndPush(RepoImpl.java:104) ~[fastback-0.24.1+1.21.5-fabric%20(1).jar:?]
+	at knot/net.pcal.fastback.commands.FullCommand.lambda$run$1(FullCommand.java:65) ~[fastback-0.24.1+1.21.5-fabric%20(1).jar:?]
+	at knot/net.pcal.fastback.commands.Commands.lambda$gitOp$0(Commands.java:131) ~[fastback-0.24.1+1.21.5-fabric%20(1).jar:?]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[?:?]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1575) [?:?]

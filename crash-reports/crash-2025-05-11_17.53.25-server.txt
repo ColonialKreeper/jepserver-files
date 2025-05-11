@@ -1,0 +1,249 @@
+---- Minecraft Crash Report ----
+// I let you down. Sorry :(
+
+Time: 2025-05-11 17:53:25
+Description: Exception in server tick loop
+
+java.lang.NullPointerException: Cannot invoke "de.erdbeerbaerlp.dcintegration.common.DiscordIntegration.getServerInterface()" because "de.erdbeerbaerlp.dcintegration.common.DiscordIntegration.INSTANCE" is null
+	at knot//net.minecraft.class_3244.handler$zfb000$dcintegration-fabric$onDisconnect(class_3244.java:2772)
+	at knot//net.minecraft.class_3244.method_10839(class_3244.java)
+	at knot//net.minecraft.class_2535.method_10768(class_2535.java:673)
+	at knot//net.minecraft.class_3242.method_14357(class_3242.java:189)
+	at knot//net.minecraft.server.MinecraftServer.method_61254(MinecraftServer.java:1093)
+	at knot//net.minecraft.class_3176.method_61254(class_3176.java:281)
+	at knot//net.minecraft.server.MinecraftServer.method_3813(MinecraftServer.java:1073)
+	at knot//net.minecraft.server.MinecraftServer.method_3748(MinecraftServer.java:946)
+	at knot//net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:706)
+	at knot//net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:290)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- System Details --
+Details:
+	Minecraft Version: 1.21.5
+	Minecraft Version ID: 1.21.5
+	Operating System: Windows 11 (amd64) version 10.0
+	Java Version: 23.0.2, Eclipse Adoptium
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode, sharing), Eclipse Adoptium
+	Memory: 7178246304 bytes (6845 MiB) / 8589934592 bytes (8192 MiB) up to 8589934592 bytes (8192 MiB)
+	CPUs: 16
+	Processor Vendor: GenuineIntel
+	Processor Name: 12th Gen Intel(R) Core(TM) i5-12600KF
+	Identifier: Intel64 Family 6 Model 151 Stepping 2
+	Microarchitecture: Alder Lake
+	Frequency (GHz): 3.42
+	Number of physical packages: 1
+	Number of physical CPUs: 10
+	Number of logical CPUs: 16
+	Graphics card #0 name: NVIDIA GeForce RTX 3070
+	Graphics card #0 vendor: NVIDIA
+	Graphics card #0 VRAM (MiB): 8192.00
+	Graphics card #0 deviceId: VideoController1
+	Graphics card #0 versionInfo: 32.0.15.7283
+	Memory slot #0 capacity (MiB): 16384.00
+	Memory slot #0 clockSpeed (GHz): 2.13
+	Memory slot #0 type: DDR4
+	Memory slot #1 capacity (MiB): 16384.00
+	Memory slot #1 clockSpeed (GHz): 2.13
+	Memory slot #1 type: DDR4
+	Virtual memory max (MiB): 106323.95
+	Virtual memory used (MiB): 30640.33
+	Swap memory total (MiB): 73728.00
+	Swap memory used (MiB): 0.00
+	Space in storage for jna.tmpdir (MiB): <path not set>
+	Space in storage for org.lwjgl.system.SharedLibraryExtractPath (MiB): <path not set>
+	Space in storage for io.netty.native.workdir (MiB): <path not set>
+	Space in storage for java.io.tmpdir (MiB): available: 474773.19, total: 953126.00
+	Space in storage for workdir (MiB): available: 1156913.75, total: 1907712.00
+	JVM Flags: 20 total; -Xms8192M -Xmx8192M -XX:+AlwaysPreTouch -XX:+DisableExplicitGC -XX:+ParallelRefProcEnabled -XX:+PerfDisableSharedMem -XX:+UnlockExperimentalVMOptions -XX:+UseG1GC -XX:G1HeapRegionSize=8M -XX:G1HeapWastePercent=5 -XX:G1MaxNewSizePercent=40 -XX:G1MixedGCCountTarget=4 -XX:G1MixedGCLiveThresholdPercent=90 -XX:G1NewSizePercent=30 -XX:G1RSetUpdatingPauseTimePercent=5 -XX:G1ReservePercent=20 -XX:InitiatingHeapOccupancyPercent=15 -XX:MaxGCPauseMillis=200 -XX:MaxTenuringThreshold=1 -XX:SurvivorRatio=32
+	Fabric Mods: 
+		almanac: Almanac 1.4.5
+		audioplayer: AudioPlayer 1.21.5-1.13.2
+			admiral: Admiral 0.4.8+1.21.4
+			fabric-api-base: Fabric API Base 0.4.62+73a52b4b07
+			fabric-command-api-v2: Fabric Command API (v2) 2.2.49+73a52b4b07
+			fabric-lifecycle-events-v1: Fabric Lifecycle Events (v1) 2.5.13+5cbce67307
+		axesareweapons: Axes Are Weapons 1.9.4
+		balm: Balm 21.5.14
+			kuma_api: KumaAPI 21.5.2
+		betterstats: Better Statistics Screen 3.13.9+fabric-1.21.5
+		betterthanmending: BetterThanMending 2.2.3
+		chunky: Chunky 1.4.36
+		cloth-config: Cloth Config v17 18.0.145
+			cloth-basic-math: cloth-basic-math 0.6.1
+		clumps: Clumps 23.0.0.1
+		cobweb: Cobweb 1.3.3
+		collective: Collective 8.3
+		dcintegration-fabric: Discord Integration 3.1.0.1
+			de_erdbeerbaerlp_dcintegration_common: dcintegration.common 3.1.0
+			fabric-permissions-api-v0: fabric-permissions-api 0.3.3
+		debugify: Debugify 1.21.5+1.0
+		fabric-api: Fabric API 0.121.0+1.21.5
+			fabric-api-lookup-api-v1: Fabric API Lookup API (v1) 1.6.95+86c3a9f149
+			fabric-biome-api-v1: Fabric Biome API (v1) 16.0.7+2dd063df49
+			fabric-block-api-v1: Fabric Block API (v1) 1.0.37+86c3a9f149
+			fabric-block-view-api-v2: Fabric BlockView API (v2) 1.0.26+aa6d566c49
+			fabric-command-api-v1: Fabric Command API (v1) 1.2.70+f71b366f49
+			fabric-commands-v0: Fabric Commands (v0) 0.2.87+df3654b349
+			fabric-content-registries-v0: Fabric Content Registries (v0) 10.0.12+3e6c1f7d49
+			fabric-convention-tags-v1: Fabric Convention Tags 2.1.29+7f945d5b49
+			fabric-convention-tags-v2: Fabric Convention Tags (v2) 2.14.3+fca633a049
+			fabric-crash-report-info-v1: Fabric Crash Report Info (v1) 0.3.12+86c3a9f149
+			fabric-data-attachment-api-v1: Fabric Data Attachment API (v1) 1.7.0+9c0dd47249
+			fabric-data-generation-api-v1: Fabric Data Generation API (v1) 22.3.4+fd2b524049
+			fabric-dimensions-v1: Fabric Dimensions API (v1) 4.0.17+3e6c1f7d49
+			fabric-entity-events-v1: Fabric Entity Events (v1) 2.0.25+27c1078f49
+			fabric-events-interaction-v0: Fabric Events Interaction (v0) 4.0.13+73a52b4b49
+			fabric-game-rule-api-v1: Fabric Game Rule API (v1) 1.0.70+c327076a49
+			fabric-item-api-v1: Fabric Item API (v1) 11.3.2+2ccdb6ef49
+			fabric-item-group-api-v1: Fabric Item Group API (v1) 4.2.8+3459fc6149
+			fabric-loot-api-v2: Fabric Loot API (v2) 3.0.47+3f89f5a549
+			fabric-loot-api-v3: Fabric Loot API (v3) 1.0.35+86c3a9f149
+			fabric-message-api-v1: Fabric Message API (v1) 6.0.33+86c3a9f149
+			fabric-networking-api-v1: Fabric Networking API (v1) 4.4.0+f3ffa98949
+			fabric-object-builder-api-v1: Fabric Object Builder API (v1) 21.0.0+7b20cbb049
+			fabric-particles-v1: Fabric Particles (v1) 4.1.1+112e550e49
+			fabric-recipe-api-v1: Fabric Recipe API (v1) 8.1.6+052a85d049
+			fabric-registry-sync-v0: Fabric Registry Sync (v0) 6.1.20+b556383249
+			fabric-rendering-data-attachment-v1: Fabric Rendering Data Attachment (v1) 0.3.64+73761d2e49
+			fabric-rendering-fluids-v1: Fabric Rendering Fluids (v1) 3.1.27+86c3a9f149
+			fabric-resource-conditions-api-v1: Fabric Resource Conditions API (v1) 5.0.21+73a52b4b49
+			fabric-resource-loader-v0: Fabric Resource Loader (v0) 3.1.6+02ca679649
+			fabric-screen-handler-api-v1: Fabric Screen Handler API (v1) 1.3.127+c327076a49
+			fabric-tag-api-v1: Fabric Tag API (v1) 1.0.16+ecf51cdc49
+			fabric-transfer-api-v1: Fabric Transfer API (v1) 5.4.23+7b20cbb049
+			fabric-transitive-access-wideners-v1: Fabric Transitive Access Wideners (v1) 6.3.17+f17a180c49
+		fabric-language-kotlin: Fabric Language Kotlin 1.13.2+kotlin.2.1.20
+			org_jetbrains_kotlin_kotlin-reflect: kotlin-reflect 2.1.20
+			org_jetbrains_kotlin_kotlin-stdlib: kotlin-stdlib 2.1.20
+			org_jetbrains_kotlin_kotlin-stdlib-jdk7: kotlin-stdlib-jdk7 2.1.20
+			org_jetbrains_kotlin_kotlin-stdlib-jdk8: kotlin-stdlib-jdk8 2.1.20
+			org_jetbrains_kotlinx_atomicfu-jvm: atomicfu-jvm 0.27.0
+			org_jetbrains_kotlinx_kotlinx-coroutines-core-jvm: kotlinx-coroutines-core-jvm 1.10.1
+			org_jetbrains_kotlinx_kotlinx-coroutines-jdk8: kotlinx-coroutines-jdk8 1.10.1
+			org_jetbrains_kotlinx_kotlinx-datetime-jvm: kotlinx-datetime-jvm 0.6.2
+			org_jetbrains_kotlinx_kotlinx-io-bytestring-jvm: kotlinx-io-bytestring-jvm 0.7.0
+			org_jetbrains_kotlinx_kotlinx-io-core-jvm: kotlinx-io-core-jvm 0.7.0
+			org_jetbrains_kotlinx_kotlinx-serialization-cbor-jvm: kotlinx-serialization-cbor-jvm 1.8.0
+			org_jetbrains_kotlinx_kotlinx-serialization-core-jvm: kotlinx-serialization-core-jvm 1.8.0
+			org_jetbrains_kotlinx_kotlinx-serialization-json-jvm: kotlinx-serialization-json-jvm 1.8.0
+		fabricloader: Fabric Loader 0.16.14
+			mixinextras: MixinExtras 0.4.1
+		ferritecore: FerriteCore 8.0.0
+		floodgate: Floodgate 2.2.4-SNAPSHOT
+			aopalliance_aopalliance: aopalliance 1.0
+			cloud: Cloud 2.0.0-beta.10
+				io_leangen_geantyref_geantyref: geantyref 1.3.15
+				org_incendo_cloud-brigadier: cloud-brigadier 2.0.0-beta.10
+				org_incendo_cloud-core: cloud-core 2.0.0
+				org_incendo_cloud-minecraft-modded-common-fabric-repack: cloud-minecraft-modded-common-fabric-repack 2.0.0-beta.10
+				org_incendo_cloud-services: cloud-services 2.0.0
+			com_google_guava_failureaccess: failureaccess 1.0.1
+			jakarta_inject_jakarta_inject-api: jakarta.inject-api 2.0.1
+			javax_inject_javax_inject: javax.inject 1
+			org_geysermc_cumulus_cumulus: cumulus 1.1.2
+			org_geysermc_event_events: events 1.1-SNAPSHOT
+			org_geysermc_geyser_common_unshaded: common 2.2.1-SNAPSHOT
+			org_java-websocket_java-websocket: Java-WebSocket 1.5.2
+			org_lanternpowered_lmbda: lmbda 2.0.0
+		forgeconfigapiport: Forge Config API Port 21.5.1
+			com_electronwill_night-config_core: core 3.8.1
+			com_electronwill_night-config_toml: toml 3.8.1
+		geyser-fabric: Geyser-Fabric 2.7.1-SNAPSHOT
+			com_fasterxml_jackson_core_jackson-annotations: jackson-annotations 2.18.0
+			com_fasterxml_jackson_core_jackson-core: jackson-core 2.18.0
+			com_fasterxml_jackson_core_jackson-databind: jackson-databind 2.18.0
+			com_fasterxml_jackson_dataformat_jackson-dataformat-yaml: jackson-dataformat-yaml 2.18.0
+			com_google_errorprone_error_prone_annotations: error_prone_annotations 2.27.0
+			com_nukkitx_natives: natives 1.0.3
+			io_airlift_aircompressor: aircompressor 0.27
+			io_jsonwebtoken_jjwt-api: jjwt-api 0.12.6
+			io_jsonwebtoken_jjwt-gson: jjwt-gson 0.12.6
+			io_jsonwebtoken_jjwt-impl: jjwt-impl 0.12.6
+			io_netty_netty-codec-dns: netty-codec-dns 4.1.107
+			io_netty_netty-codec-haproxy: netty-codec-haproxy 4.1.107
+			io_netty_netty-resolver-dns-classes-macos: netty-resolver-dns-classes-macos 4.1.107
+			net_jodah_expiringmap: expiringmap 0.5.10
+			net_kyori_adventure-api: adventure-api 4.17.0
+			net_kyori_adventure-key: adventure-key 4.17.0
+			net_kyori_adventure-nbt: adventure-nbt 4.17.0
+			net_kyori_adventure-text-serializer-gson: adventure-text-serializer-gson 4.17.0
+			net_kyori_adventure-text-serializer-json: adventure-text-serializer-json 4.17.0
+			net_kyori_adventure-text-serializer-json-legacy-impl: adventure-text-serializer-json-legacy-impl 4.17.0
+			net_kyori_adventure-text-serializer-legacy: adventure-text-serializer-legacy 4.17.0
+			net_kyori_adventure-text-serializer-plain: adventure-text-serializer-plain 4.17.0
+			net_kyori_examination-api: examination-api 1.3.0
+			net_kyori_examination-string: examination-string 1.3.0
+			net_kyori_option: option 1.0.0
+			net_lenni0451_commons_httpclient: httpclient 1.6.0
+			net_raphimc_minecraftauth: MinecraftAuth 4.1.1
+			org_bitbucket_b_c_jose4j: jose4j 0.9.6
+			org_cloudburstmc_math_api: api 2.0
+			org_cloudburstmc_math_immutable: immutable 2.0
+			org_cloudburstmc_nbt: nbt 3.0.3
+			org_geysermc_api_base-api: base-api 1.0.2
+		grindenchantments: Grind Enchantments 4.0.1+1.21.5
+			codec-config-api: Codec config API 3.0.2+1.21.4
+		harvest_with_ease: Harvest with ease 9.4.0
+		infinitetrading: Infinite Trading 4.6
+		java: OpenJDK 64-Bit Server VM 23
+		krypton: Krypton 0.2.9
+			com_velocitypowered_velocity-native: velocity-native 3.4.0-SNAPSHOT
+		ksyxis: Ksyxis 1.3.3
+		leavesbegone: Leaves Be Gone 21.5.2
+		lithium: Lithium 0.16.2+mc1.21.5
+		minecraft: Minecraft 1.21.5
+		netherportalfix: NetherPortalFix 21.5.1
+		nochatreports: No Chat Reports 1.21.5-v2.12.0
+		notenoughcrashes: Not Enough Crashes 4.4.8+1.21.5
+		placeholder-api: Placeholder API 2.6.3+1.21.5
+		puzzleslib: Puzzles Lib 21.5.10
+		securecrops: Secure Crops 2.0.1
+		servercore: ServerCore 1.5.10+1.21.5
+			org_yaml_snakeyaml: snakeyaml 2.3
+			space_arim_dazzleconf_dazzleconf-core: dazzleconf-core 1.3.0-M2
+			space_arim_dazzleconf_dazzleconf-ext-snakeyaml: dazzleconf-ext-snakeyaml 1.3.0-M2
+		servux: Servux 0.6.0
+		silk-all: Silk (All modules) 1.11.1
+			silk-commands: Silk Commands 1.11.1
+			silk-core: Silk Core 1.11.1
+			silk-game: Silk Game 1.11.1
+			silk-igui: Silk Inventory GUI 1.11.1
+			silk-nbt: Silk NBT 1.11.1
+			silk-network: Silk Network 1.11.1
+			silk-persistence: Silk Persistence 1.11.1
+		sit-oth3r: Sit! 1.2.3.2+1.21.5
+		spark: spark 1.10.128
+		tcdcommons: TCD Commons API 3.12.7+fabric-1.21.5
+		threadtweak: ThreadTweak 0.1.7+mc1.21.5
+		toofast: TooFast 3.3.0
+		vcinteraction: Voice Chat Interaction 1.21.5-1.0.8
+			polymer-registry-sync-manipulator: Polymer (Registry Sync Manipulator) 0.12.1+1.21.5-rc2
+		veinminer: Veinminer 2.4.2
+			de_miraculixx_core_dev: core 2.4.2
+		veinminer-enchantment: Veinminer Enchantment 2.2.2
+		villager-pickup: Villager Pickup 1.1.5-1.21.5
+		voicechat: Simple Voice Chat 1.21.5-2.5.30
+		yet_another_config_lib_v3: YetAnotherConfigLib 3.6.6+1.21.5-fabric
+			com_twelvemonkeys_common_common-image: common-image 3.12.0
+			com_twelvemonkeys_common_common-io: common-io 3.12.0
+			com_twelvemonkeys_common_common-lang: common-lang 3.12.0
+			com_twelvemonkeys_imageio_imageio-core: imageio-core 3.12.0
+			com_twelvemonkeys_imageio_imageio-metadata: imageio-metadata 3.12.0
+			com_twelvemonkeys_imageio_imageio-webp: imageio-webp 3.12.0
+			org_quiltmc_parsers_gson: gson 0.2.1
+			org_quiltmc_parsers_json: json 0.2.1
+	Server Running: true
+	Player Count: 1 / 20; [class_3222['ColonialKreeper'/1, l='ServerLevel[world]', x=-102.28, y=79.00, z=85.36]]
+	Active Data Packs: vanilla, file/bukkit, fabric, audioplayer, axesareweapons, balm (incompatible), collective, fabric-convention-tags-v2, leavesbegone (incompatible), vcinteraction, veinminer-enchantment
+	Available Data Packs: audioplayer, axesareweapons, balm (incompatible), collective, fabric, fabric-convention-tags-v2, file/bukkit, leavesbegone (incompatible), minecart_improvements, redstone_experiments, trade_rebalance, vanilla, vcinteraction, veinminer-enchantment
+	Enabled Feature Flags: minecraft:vanilla
+	World Generation: Stable
+	World Seed: 3043177051367655512
+	Suppressed Exceptions: ~~NONE~~
+	Is Modded: Definitely; Server brand changed to 'fabric'
+	Type: Dedicated Server (map_server.txt)
+	Suspected Mods: Discord Integration (dcintegration-fabric)

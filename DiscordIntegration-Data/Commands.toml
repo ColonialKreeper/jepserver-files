@@ -1,0 +1,41 @@
+configGenerated = true
+
+    [[commands.customCommands]]
+      name = "kick"
+      description = "Kicks an player from the Server"
+      mcCommand = "kick %player% %reason%"
+      textToSend = ""
+      adminOnly = true
+      hidden = false
+
+        [[commands.customCommands.args]]
+          name = "player"
+          description = "The player to be kicked"
+          optional = false
+
+        [[commands.customCommands.args]]
+          name = "reason"
+          description = "Reason for the kick"
+          optional = true
+
+    [[commands.customCommands]]
+      name = "stop"
+      description = "Stops the server"
+      mcCommand = "stop"
+      textToSend = ""
+      adminOnly = true
+      hidden = false
+args = [    ]
+
+    [[commands.customCommands]]
+      name = "kill"
+      description = "Kills an Player or Entity"
+      mcCommand = "kill %target%"
+      textToSend = ""
+      adminOnly = true
+      hidden = false
+
+        [[commands.customCommands.args]]
+          name = "target"
+          description = "The target(s) for the kill command."
+          optional = false
