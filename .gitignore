@@ -1,5 +1,6 @@
 world/
 *.lock
-versions/**
-.fabric/**
-libraries/**
+versions/
+.fabric/
+libraries/
+config/Discord-Integration.toml
